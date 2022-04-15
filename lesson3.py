@@ -1,10 +1,10 @@
 # a=10000
-# b=2000
+# b=20000
 # c=400
-# if b>a and b>c:
-#     print("b больше" )
-# elif a>b and a>c:
-#     print("a больше")
+# if a>b and a>c:
+#     print("a больше" )
+# elif b>a and b>c:
+#     print("b больше")
 # elif c>b and c>a:
 #     print("c больше")
 
@@ -47,5 +47,28 @@
 # if b>a:
 #     print("b больше")
 
+# my_list=['один','два','три','четыре','пять']
+# third_elem=my_list[2]
+# my_list[2]='ноль'
+# print(my_list)
+
+# my_list=['один','два','три','четыре','пять']
+# elem=my_list[-1]
+# print(elem)
 
 
+# my_list=[1,2,3,4,5]
+# for i in range(len(my_list)):
+#     my_list[i]+=5
+#     print(my_list)
+
+
+# my_list=['один',10,2.25,[5,15],'пять']
+# print(len(my_list))
+
+# my_list=['один','два','три','четыре','пять']
+# print(my_list[1:3])
+
+# my_list=[1,2,3,4,5]
+# my_list.insert(1,'привет')
+# print(my_list)
